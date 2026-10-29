@@ -38,7 +38,7 @@ components:
       sourcePath: config
     rhoai:
       repo: pawelpaszki/ray-module-operator
-      ref: RHOAIENG-102059-verify@935452a
+      ref: RHOAIENG-102059-verify@935452ad81397d1493a23bb20d9c296f2151aed5
       sourcePath: config
   trustyai:
     odh:
@@ -270,7 +270,7 @@ imageOverrides:
       digest: "sha256:dc6dd14036c13fe4fe50f745a5b8aa0120555d5c48aaaaee75cff4ecde5b0b11"
     rhoai:
       base: quay.io/ppaszki/rhoai-dev
-      digest: "sha256:581d4cbafc8f3f0525f748b08b0b2e8e51f7bd08288a49c3442e8e1d38ca0c23"
+      digest: "sha256:383c7c232181534546c95c98e6c94fa8c6c72784a8ba4fd5748adc72d3fc4a7e"
   RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE:
     component: trustyai
     tagTemplate: "{SHA}"
